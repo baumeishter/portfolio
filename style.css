@@ -1,0 +1,45 @@
+html, body {
+    font-family: 'Space Mono';
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.navbar, .nav-link {
+    background-color: #010400;
+    font-family: 'Space Mono';
+    font-size: medium;
+}
+
+.nav-link:hover {
+    opacity: 0.42;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 32px;
+    margin-left: 32px;
+    opacity: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+    padding: 1.5%;
+    font-size: 1.5vw;
+    text-align: center, justify;
+}
+
+.portrait {
+    object-fit: scale-down;
+}
