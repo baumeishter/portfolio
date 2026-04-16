@@ -1,13 +1,18 @@
 html, body {
     font-family: 'Space Mono';
-    font-size: 16px;
+    font-size: 12px;
     height: 100%;
     margin: 0;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2vw !important;
 }
 
 .navbar, .nav-link {
@@ -22,8 +27,8 @@ h1 {
 
 .navbar li {
     display: inline;
-    margin-right: 32px;
-    margin-left: 32px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     opacity: 1;
 }
 
@@ -36,10 +41,61 @@ h1 {
 
 .box {
     padding: 1.5%;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     text-align: center, justify;
 }
 
 .portrait {
     object-fit: scale-down;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    border: none;
+}
+
+.card-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.card-body {
+    font-size: 1.75vw;
+    padding-top: 2rem;
+}
+
+.card:hover {
+    opacity: 0.63;
+}
+
+.button-class {
+    font-size: 1.25vw;
+    font-weight: normal;
+    justify-content: center;
+    border: 5px;
+    border-color: #010400;
+    color: #010400;
+    background-color: F2F2F2;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    font-size: 1.25vw;
+    font-weight: bold;
+    justify-content: center;
+    border: 5px;
+    border-color: #010400;
+    color: #010400;
+    background-color: F2F2F2;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
